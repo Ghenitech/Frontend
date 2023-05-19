@@ -1,0 +1,56 @@
+body{
+    background-color:#454545;
+}
+
+h4 {
+    color: #5FD068;
+}
+
+.siz{
+    color: #FEFF86;
+    font-size: 18px;
+    padding-top: 5px;
+    margin-bottom: 10px;
+}
+
+#text-white {
+    color: #FEFF86;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+
+.table{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:#AEE2FF;
+    font-size: 16px;
+}
+
+
+.container-sm{
+    background-color:#3AB0FF;
+}
+
+.container-welkom{
+    margin: 2.5rem 0 0 0;
+    padding: 0.3rem;
+    background-color:#FFFBF5;
+}
+
+.container{
+    margin: 0 0 0 0;
+    padding: 0.5rem;
+}
+
+.container-avatar{
+    margin: 2.5rem 0 2.5rem 0;
+    padding: 0.5rem;
+    background-color:#E8F9FD;
+    text-align: center;
+}
+
+
+.yangman {
+    width: 6rem;
+
+}
