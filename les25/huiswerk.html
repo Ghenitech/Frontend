@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>My First Website</title>
+<link rel="stylesheet" href="praktijk.css">
+<script
+src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+$("#button").click(function() {
+var name = $("#idtextbox1").val();
+var book = $("#idtextbox2").val();
+var movie = $("#idtextbox3").val();
+window.alert(
+"I'm Mr " +  name +
+" and my favourite book is " + book +
+" and my favourite movie is " + movie
+);
+});
+});
+$(document).ready(function() {
+    $("#toggle").click(function() {
+    $("#hide").fadeToggle();
+    });
+    });
+</script>
+</head>
+<body>
+    <button id="toggle">Hide and Unhide</button>
+    <h2 id="hide">About me and My hobbies</h2>
+    <p>Dear visitors, Welcome to Mr Gheni's internet library. In my internet library you may find thousand of books and documentary 
+     about the Uyghurs.if you can't find your items, please feel free to fill the form and we may send to your address.</p>
+        <br>
+<form>
+What is your name?
+<input type="text" id="idtextbox1"><br><br>
+What is your favourite book?
+<input type="text" id="idtextbox2"><br><br>
+What is your favourite movie?
+<input type="text" id="idtextbox3"><br><br>
+<input id="button" name="button" type="button"
+value="Click this button">
+</form>
+<br>
+<br>
+<footer class="footer"> Copyrighted by @2023 Abdugheni, All rights reserved</footer>  
+</body>
+</html>
